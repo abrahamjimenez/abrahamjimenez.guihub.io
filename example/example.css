@@ -4,4 +4,31 @@ body {
 
 h1 {
   background-color: chartreuse;
+  padding:8px;
+  text-align:center;
+}
+
+p {
+  color:white;
+}
+
+.fancy {
+  text-transform:uppercase;
+  font-weight:bold;
+  font-size:1.6em;
+  color:palegoldenrod;
+  border:1px solid white;
+  padding:50px 10px 100px;/* Top. Right/Left. Bottom. */
+  margin:40px;
+  margin-left:120px;
+  background-color: red;;
+}
+
+#david {
+  width:100px;
+}
+
+.superfancy {
+  font-family: 'Great Vibes', cursive;
+  font-size: 3em;
 }
