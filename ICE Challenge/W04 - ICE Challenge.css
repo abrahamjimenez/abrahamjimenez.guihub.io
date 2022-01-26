@@ -1,0 +1,64 @@
+* {
+  padding:0;
+  margin:0;
+  /* border: 1px solid black; */
+}
+
+/* Body */
+body {
+  background-color: #F0AAC8;
+  text-align: center;
+  margin: auto;
+  width: 300px
+}
+
+.title {
+  color: white;
+}
+.quote {
+  color: white;
+  font-size:10px;
+  padding: 10px;
+}
+.list {
+  font-weight: bold;
+  font-size: 12px;
+  padding-top: 1px;
+  padding-bottom: 10px;
+}
+.name {
+  color: white;
+  font-size:15px;
+  padding: 10px;
+}
+
+.russ {
+    font-size: 15px;
+    padding: 10px;
+}
+.nelson {
+    color: black;
+    text-align: center;
+}
+.atonement {
+  color: white;
+  text-align: center;
+  width: 230px;
+  height: auto;
+  margin:auto;
+  padding: 10px;
+}
+
+
+/* main */
+img {
+  width: 120px;
+}
+li {
+  text-align:left;
+  margin:0;
+  margin: 8px;
+  list-style-position: inside;
+  
+}
+
