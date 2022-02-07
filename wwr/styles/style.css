@@ -31,7 +31,7 @@ nav a:hover{
 }
 .home-title {
   color: #E6E5C8;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans', Arial, sans-serif;
   font-size: 2em;
   margin-top:10px;
 }
@@ -43,7 +43,7 @@ h2 {
 }
 .msg h2 {
   color:#041163;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans', Arial, sans-serif;
 }
 .msg p {
   color:#0d96b7;
