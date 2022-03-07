@@ -332,3 +332,15 @@ footer a:hover {
   padding: 10px;
   background-color: #E6E5C8;
 }
+
+/* Contact Us Page */
+#feedback {
+  background: antiquewhite;
+  position: absolut;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: .5em;
+  /* Makes Invisible */
+  display: none;
+}
