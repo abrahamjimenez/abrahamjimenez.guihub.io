@@ -1,0 +1,102 @@
+.Spencer {
+  text-align: center;
+  padding: 10px;
+  font-family: 'Fredoka', sans-serif;
+  font-weight: bold;
+}
+.saved {
+  font-size: 30px;
+}
+
+.sweet-button{ 
+  margin-bottom: 20px;
+  background-color: #4682d5;
+  color: white;
+  border-radius: 5px;
+  outline: 2px black;
+  outline-offset: 2px;
+  width: 70px;
+  height: 40px;
+  text-align: center;
+
+}
+.sw {
+  width: 350px;
+}
+
+.sith {
+  text-align: center;
+  width: 350px;
+}
+/* !Oops  */
+.oops {
+  padding:0px;
+  margin:0 auto;
+  border: 1px solid black;
+
+  text-align: center;
+  width: 500px;
+
+}
+.oops span {
+  margin-top: 20px;
+  padding: 0px;
+  color: #ea7072;
+  size: 30px;
+  font-size: 100px;
+}
+.oops h4 {
+  padding:0px;
+  margin:0px;
+  font-size: 35px;
+  font-weight: normal;
+}
+.oops .gray-text {
+  color: gray;
+  font-size: 20px;
+}
+.oops button {
+  margin-bottom: 20px;
+  background-color: #4682d5;
+  color: white;
+  border-radius: 5px;
+  outline: 2px solid gray;
+  outline-offset: 2px;
+  width: 70px;
+  height: 40px;
+}
+.oops hr {
+  width: 80%;
+  color: #e4e4e4;
+}
+.oops .blue-text {
+  font-weight: bold;
+  color: #4682d5
+}
+/* !Oops */
+
+/* HTML */
+#html {
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid red;
+  text-align: center;
+}
+.h3_html {
+  font-size: 15px;
+  color: grey;
+}
+.button_great {
+  background-color: #4682d5;
+  color: white;
+  border-radius: 5px;
+  width: 80px;
+  height: 40px;
+}
+.dislike {
+  background-color: lightgrey;
+  color: white;
+  border-radius: 5px;
+  width: 60px;
+  height: 40px
+}
