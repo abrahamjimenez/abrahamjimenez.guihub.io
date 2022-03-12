@@ -205,22 +205,17 @@ footer p {
   width:1260px;
   margin: 0 auto;
 }
-.necklaces-pendants-page img {
-  width: 300px;
-  height: 300px;
-  background-color: black;
+.necklaces-pendants-page img:nth-child(1), .necklaces-pendants-page img:nth-child(2), .necklaces-pendants-page img:nth-child(3), .necklaces-pendants-page img:nth-child(4)  {
+  margin-top: 40px;
+}
+.necklaces-pendants-page img:nth-child(23), .necklaces-pendants-page img:nth-child(24), .necklaces-pendants-page img:nth-child(25), .necklaces-pendants-page img:nth-child(26)  {
+  margin-bottom: 40px;
 }
 .necklaces-pendants-page img:nth-child(9) {
-  width: 630px;
-  height: 630px;
-  background-color: orange;
   grid-row: 3/5;
   grid-column: 1/3;
 }
 .necklaces-pendants-page img:nth-child(20) {
-  width: 630px;
-  height: 630px;
-  background-color: orange;
   grid-row: 6/8;
   grid-column: 3/5;
 }
