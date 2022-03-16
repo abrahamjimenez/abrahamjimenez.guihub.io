@@ -9,12 +9,13 @@ body {
 header {
   border: 1px solid black;
   background-color: #496f98;
+  font-family: 'Libre Franklin', sans-serif;
 }
 .main-title {
   text-align: center;
   margin-top: 20px;
   font-size: 30px;
-  font-weight: normal;
+  font-weight: 300;
   color: #f6f7f9
 }
 .navbar ul {
@@ -29,11 +30,19 @@ header {
 .navbar ul li a {
   color: #f6f7f9;
   text-decoration: none;
+  font-weight: 100;
 }
 .navbar ul li a:hover {
   text-decoration: underline;
 }
 /** Main */
+main {
+  font-family: 'Source Serif Pro', serif;
+  font-weight: 200;
+}
+.row-2 div div p:nth-child(2), .row-3 div div p:nth-child(2), .row-4 div div p:nth-child(2), .row-5 div div p:nth-child(2) {
+  font-weight: 300;
+}
 /** Row 1 */
 .row-1 {
   border: 1px solid black;
@@ -88,7 +97,6 @@ header {
   margin-top: 40px;
   margin-bottom: 40px;
 }
-
 .grid-container-row-3 .right {
   justify-self: center;
   align-items: center;
@@ -160,13 +168,16 @@ footer {
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   border: 1px solid black;
   background-color: #99adc1;
+  font-family: 'Source Serif Pro', serif;
 }
 footer h3 {
   margin-bottom: 5px;
+  font-weight: 600;
 }
 footer p {
   margin-top: 1.5px;
   margin-bottom: 1.5px;
+  font-weight: 300;
 }
 .company, .services, .products, .site-plan, .icons  {
   margin-top: 40px;
