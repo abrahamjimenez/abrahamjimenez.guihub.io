@@ -1,0 +1,46 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+/* Images */
+.img-h {
+  width: 308.8px;
+  height: 231.6px;
+}
+
+.img-v {
+  height: 308.8px;
+  width: 231.6px;
+}
+
+.images-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+}
+
+.header, p {
+  text-align: center;
+}
+
+.header {
+  height: 100px;
+}
+
+.ps {
+  padding-top: 30px;
+}
+
+p {
+  font-size: 20px;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 2em;
+}
