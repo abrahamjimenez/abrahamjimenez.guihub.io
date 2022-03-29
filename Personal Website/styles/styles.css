@@ -12,19 +12,35 @@ img:hover {
   transform: scale(1.02);
   cursor: pointer;
 }
-main p {
+main p, header li {
   transition: transform .4s; /* Animation */
 }
 main p:hover {
   transform: scale(1.1);
   font-weight: 300;
+  cursor: default;
+}
+header li:hover {
+  transform: scale(1.1);
+  font-weight: 300;
   cursor: pointer;
+  text-decoration: underline;
+}
+h1 {
+  transition: transform .5s;
+  text-decoration: none;
+}
+h1:hover {
+  transform: scale(1.2);
 }
 /** Header */
 header {
   border: 1px solid black;
   background-color: #496f98;
   font-family: 'Libre Franklin', sans-serif;
+}
+header a {
+  text-decoration: none;
 }
 .main-title {
   text-align: center;
@@ -46,9 +62,6 @@ header {
   color: #f6f7f9;
   text-decoration: none;
   font-weight: 100;
-}
-.navbar ul li a:hover {
-  text-decoration: underline;
 }
 /** Main */
 main {
