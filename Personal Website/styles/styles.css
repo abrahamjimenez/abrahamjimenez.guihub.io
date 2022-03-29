@@ -10,6 +10,15 @@ img {
 }
 img:hover {
   transform: scale(1.02);
+  cursor: pointer;
+}
+main p {
+  transition: transform .4s; /* Animation */
+}
+main p:hover {
+  transform: scale(1.1);
+  font-weight: 300;
+  cursor: pointer;
 }
 /** Header */
 header {
@@ -270,13 +279,6 @@ footer p {
   width: 100%;
   height: 96.2%;
 }
-.necklaces-pendants-page p {
-  font-family: 'Libre Franklin', sans-serif;
-}
-.necklaces-pendants-page p:hover {
-  font-weight: 400;
-  cursor:  pointer;
-}
 /** Rings Page  */
 .rings-page {
   display: grid;
@@ -320,11 +322,4 @@ footer p {
 .rings-page .big-img-2 {
   width: 100%;
   height: 96.2%;
-}
-.rings-page p {
-  font-family: 'Libre Franklin', sans-serif;
-}
-.rings-page p:hover {
-  font-weight: 400;
-  cursor:  pointer;
 }
