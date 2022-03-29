@@ -5,6 +5,12 @@
 body {
   background-color: #ebedef;
 }
+img {
+  transition: transform .4s; /* Animation */
+}
+img:hover {
+  transform: scale(1.02);
+}
 /** Header */
 header {
   border: 1px solid black;
