@@ -255,3 +255,54 @@ footer p {
   font-weight: 400;
   cursor:  pointer;
 }
+/** Rings Page  */
+.rings-page {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(8, 1fr);
+  grid-gap: 20px;
+  justify-items: center;
+  align-items: center;
+
+  width:1260px;
+  height: 2824px;
+  margin: 0 auto;
+}
+.rings-page img {
+  height: 300px;
+  width: 300px;
+}
+.rings-page .top, .necklaces-pendants-page .top, .necklaces-pendants-page .top, .necklaces-pendants-page .top {
+  margin-top: 40px;
+  height: 300px;
+}
+.rings-page .bottom, .rings-page .bottom, .rings-page .bottom, .rings-page .bottom  {
+  margin-bottom: 40px;
+}
+.rings-page .big-div {
+  grid-row: 3/5;
+  grid-column: 1/3;
+  width: 100%;
+  height: 100%;
+}
+.rings-page .big-img {
+  width: 100%;
+  height: 96.2%;
+}
+.rings-page .big-div-2 {
+  grid-row: 6/8;
+  grid-column: 3/5;
+  width: 100%;
+  height: 100%;
+}
+.rings-page .big-img-2 {
+  width: 100%;
+  height: 96.2%;
+}
+.rings-page p {
+  font-family: 'Libre Franklin', sans-serif;
+}
+.rings-page p:hover {
+  font-weight: 400;
+  cursor:  pointer;
+}
