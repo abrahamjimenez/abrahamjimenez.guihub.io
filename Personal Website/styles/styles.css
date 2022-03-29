@@ -204,7 +204,7 @@ footer p {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-/*! Necklaces-Pendants-Page */
+/** Necklaces-Pendants-Page */
 .necklaces-pendants-page {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -214,30 +214,44 @@ footer p {
   align-items: center;
 
   width:1260px;
-  height: 2620px;
+  height: 2824px;
   margin: 0 auto;
 }
 .necklaces-pendants-page img {
   height: 300px;
   width: 300px;
 }
-.necklaces-pendants-page img:nth-child(1), .necklaces-pendants-page img:nth-child(2), .necklaces-pendants-page img:nth-child(3), .necklaces-pendants-page img:nth-child(4)  {
+.necklaces-pendants-page .top, .necklaces-pendants-page .top, .necklaces-pendants-page .top, .necklaces-pendants-page .top {
   margin-top: 40px;
   height: 300px;
 }
-.necklaces-pendants-page img:nth-child(23), .necklaces-pendants-page img:nth-child(24), .necklaces-pendants-page img:nth-child(25), .necklaces-pendants-page img:nth-child(26)  {
+.necklaces-pendants-page .bottom, .necklaces-pendants-page .bottom, .necklaces-pendants-page .bottom, .necklaces-pendants-page .bottom  {
   margin-bottom: 40px;
-  height: 300px;
 }
-.necklaces-pendants-page img:nth-child(9) {
+.necklaces-pendants-page .big-div {
   grid-row: 3/5;
   grid-column: 1/3;
   width: 100%;
   height: 100%;
 }
-.necklaces-pendants-page img:nth-child(20) {
+.necklaces-pendants-page .big-img {
+  width: 100%;
+  height: 96.2%;
+}
+.necklaces-pendants-page .big-div-2 {
   grid-row: 6/8;
   grid-column: 3/5;
   width: 100%;
   height: 100%;
+}
+.necklaces-pendants-page .big-img-2 {
+  width: 100%;
+  height: 96.2%;
+}
+.necklaces-pendants-page p {
+  font-family: 'Libre Franklin', sans-serif;
+}
+.necklaces-pendants-page p:hover {
+  font-weight: 400;
+  cursor:  pointer;
 }
